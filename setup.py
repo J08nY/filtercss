@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='filtercss',
-    version='0.0.1',
+    version='0.0.2',
     author='Jan Jancar',
     author_email='johny@neuromancer.sk',
     url='https://github.com/J08nY/filtercss/',
@@ -13,8 +13,9 @@ setup(
     long_description_content_type='text/markdown',
     packages=['filtercss'],
     install_requires=[
+        'tinycss2',
         'beautifulsoup4',
-        'cssutils'
+        'lxml'
     ],
     python_requires='>=3.8'
 )

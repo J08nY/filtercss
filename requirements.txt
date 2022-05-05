@@ -1,2 +1,3 @@
+tinycss2
 beautifulsoup4
-cssutils
+lxml
