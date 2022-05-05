@@ -6,6 +6,7 @@ setup(
     version='0.0.1',
     author='Jan Jancar',
     author_email='johny@neuromancer.sk',
+    url='https://github.com/J08nY/filtercss/',
     license='MIT',
     description='Tool for filtering unused CSS.',
     long_description=open('README.md').read(),
